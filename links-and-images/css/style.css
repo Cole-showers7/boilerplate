@@ -1,5 +1,6 @@
 body{
     background-color: burlywood;
+    background-image: linear-gradient(burlywood, white);
 }
 p{
     text-emphasis-color: blue;
@@ -9,6 +10,6 @@ p{
 }
 img{
     border-radius: 30%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
