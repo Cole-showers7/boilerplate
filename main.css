@@ -13,3 +13,81 @@ h3{
 h4{
     background-color: green;
 }
+
+
+/*calculator assignment*/
+html {
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+
+#calc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: white;
+}
+
+#container {
+    background-color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 100px);
+    gap: 2px;
+}
+
+#display {
+    background-color: white;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 2px;
+    font-size: 5.5em;
+    margin: 2px;
+}
+
+button {
+    margin: 1px;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Joan', serif;
+    color: black;
+}
+.operand {
+    background-color: #aec0d3;
+}
+
+.zero {
+    grid-column: span 2;
+    background-color: #aec0d3
+}
+
+.operator {
+    background-color: #d1dde9;    
+}
+
+.equals {
+    background-color: #d1dde9;
+}
+
+.decimal {
+    background-color: #d1dde9;
+}
+
+.clear {
+    background-color: #d1dde9;
+}
+
+.sign {
+    background-color: #d1dde9;
+}
+
+.percent {
+    background-color: #d1dde9;
+}
